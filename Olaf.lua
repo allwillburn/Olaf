@@ -1,4 +1,4 @@
-f GetObjectName(myHero) ~= "Olaf" then return end
+if GetObjectName(myHero) ~= "Olaf" then return end
 
 require('OpenPredict')
 
